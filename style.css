@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body{
+  background-color: coral;
+  text-align: center;
+}
+
+.container{
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box{
+  width: 45rem;
+  border: 1px solid rgb(124, 36, 4);
+  padding: 1rem;
+  background-color: rgb(221, 71, 16);
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  height: 20rem;
+  padding-top: 2rem; 
+}
+
+.head{
+  font-size: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.count{
+  font-size: 3.5rem;
+}
+
+hr{
+  margin-top: 1.5rem;
+  color: #eee;
+}
+
+input{
+  width: 80%;
+  height: 2.5rem;
+  font-size: 1.4rem; 
+  margin-top: 2rem;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.input-text{
+  padding-left: 1rem;
+}
